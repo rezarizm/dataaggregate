@@ -5,80 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e14f61bd-fd12-4f90-b54e-6468eb06725a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/constant/TestConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/exception/DataNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/exception/InvalidRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/exception/InvalidRequestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/gateway/BaseGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/DateTimeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/ListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/validation/ValidationAware.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/validation/Validator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-common/src/test/java/com/mekari/aggregatorcommon/validation/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/test/java/com/stockbit/aggregatorcommon/validation/ValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/entity/Tweet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/gateway/TweetGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationInputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailInputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailOutputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/gateway/UserGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationInputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailInputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailOutputBoundary.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/tweet/TweetCreationUseCaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/tweet/TweetDetailUseCaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/user/UserCreationUseCaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/user/UserDetailUseCaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-persistence/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/tweet/JPATweetGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/tweet/TweetRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/user/JPAUserGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/user/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/config/PersistenceTestConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/tweet/JPATweetGatewayIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/tweet/JPATweetGatewayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/user/JPAUserGatewayIntegrationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/user/JPAUserGatewayTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/AggregatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/main/java/com/stockbit/aggregatorservice/AggregatorServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/main/java/com/stockbit/aggregatorservice/config/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/PersistenceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/ServiceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/TwitterConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/properties/TwitterProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/controller/TimelineController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/handler/BaseExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/handler/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/TwitterProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/impl/TwitterTweetProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/impl/TwitterUserProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/scheduler/TwitterTimelineScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/service/TwitterService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/service/impl/TwitterTimelineService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/AggregatorServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/AggregatorServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/audit/JPAAuditingConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/audit/JPAAuditingConfigurationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/config/ApplicationTestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/config/ApplicationTestConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/controller/TimelineControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/controller/TimelineControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/handler/BaseExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/handler/BaseExceptionHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/processor/TwitterTweetProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/processor/TwitterTweetProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/processor/TwitterUserProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/processor/TwitterUserProcessorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/scheduler/TwitterTimelineSchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/scheduler/TwitterTimelineSchedulerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/service/TwitterTimelineServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/service/TwitterTimelineServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +47,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -138,7 +66,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -322,7 +250,16 @@
       <workItem from="1596959524246" duration="29355000" />
       <workItem from="1597031499923" duration="7615000" />
       <workItem from="1616973577814" duration="6095000" />
+      <workItem from="1616980527704" duration="566000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1616980651994</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616980651994</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,6 +276,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="121" y="0" key="#Project_Structure" timestamp="1616979623866">
@@ -361,6 +302,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="389" y="175" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1616978792807" />
+    <state x="174" y="0" key="CommitChangelistDialog2" timestamp="1616980650278">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="174" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1616980650278" />
     <state x="292" y="111" key="RefactorX.AddAttribute" timestamp="1616973889660">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -369,14 +314,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="350" y="288" key="RefactorX.RenameTag/0.0.1280.680@0.0.1280.680" timestamp="1616973851029" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1616974979920">
+    <state x="121" y="0" key="SettingsEditor" timestamp="1616981105144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1616974979920" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1616981105144" />
     <state x="245" y="85" width="607" height="534" key="find.popup" timestamp="1616978655992">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="245" y="85" width="607" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1616978655992" />
+    <state x="416" y="242" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1616980713530">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="416" y="242" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1616980713530" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1616979274043">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
