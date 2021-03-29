@@ -1,0 +1,28 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+  datasource:
+    name: twitter
+    url: jdbc:h2:mem:twitter
+    username: sa
+    password:
+  output:
+    ansi:
+      enabled: always
+
+twitter:
+  api-key: iRSxsl66K2eGQkFm0cYKVpOqo
+  api-secret: IrctSkE8L9HtG7cEHLyDXWSIPWbImj9yxtxZZCOEJRYhlO6j0e
+  access-token: 1254379781539295232-LivjGIucCBlypr0gA2E4jKsLrADzmq
+  access-secret: DL1aVzEm0ZoAW0GJ3jHCKY26mxGbFoZvjPJqZ29GjIzK5
+
+cron:
+  timeline: 0 0/10 * * * *
+
+logging:
+  file:
+    name: logs/timeline-aggregator.log

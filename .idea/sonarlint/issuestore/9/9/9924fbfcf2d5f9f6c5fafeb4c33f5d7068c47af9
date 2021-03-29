@@ -1,0 +1,7 @@
+
+y
+java:S1450"\Remove the "userProcessor" field and declare it as a local variable in the relevant methods.(¬“–ï8±ÝÎ¡½.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‰ïÌËþÿÿÿÿ8±ÝÎ¡½.
+
+java:S1450"]Remove the "tweetProcessor" field and declare it as a local variable in the relevant methods.(©äèƒùÿÿÿÿ8­‘õ ½.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ïÌËþÿÿÿÿ8Áåë ½.

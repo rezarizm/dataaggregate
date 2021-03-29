@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e14f61bd-fd12-4f90-b54e-6468eb06725a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/constant/TestConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/exception/DataNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/exception/InvalidRequestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/exception/InvalidRequestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/gateway/BaseGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/DateTimeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/DateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/ListUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/main/java/com/stockbit/aggregatorcommon/util/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/validation/ValidationAware.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/main/java/com/mekari/aggregatorcommon/validation/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-common/src/test/java/com/mekari/aggregatorcommon/validation/ValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-common/src/test/java/com/stockbit/aggregatorcommon/validation/ValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/entity/Tweet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/gateway/TweetGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationInputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/create/TweetCreationUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailInputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailOutputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/tweet/usecase/detail/TweetDetailUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/gateway/UserGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationInputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/create/UserCreationUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailInputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailOutputBoundary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/main/java/com/mekari/aggregatorcore/user/usecase/detail/UserDetailUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/tweet/TweetCreationUseCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/tweet/TweetDetailUseCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/user/UserCreationUseCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-core/src/test/java/com/mekari/aggregatorcore/user/UserDetailUseCaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-persistence/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/tweet/JPATweetGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/tweet/TweetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/user/JPAUserGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/main/java/com/mekari/aggregatorpersistence/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/config/PersistenceTestConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/tweet/JPATweetGatewayIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/tweet/JPATweetGatewayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/user/JPAUserGatewayIntegrationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-persistence/src/test/java/com/mekari/aggregatorpersistence/user/JPAUserGatewayTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/AggregatorServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/main/java/com/stockbit/aggregatorservice/AggregatorServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/main/java/com/stockbit/aggregatorservice/config/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/PersistenceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/ServiceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/TwitterConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/config/properties/TwitterProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/controller/TimelineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/handler/BaseExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/handler/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/TwitterProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/impl/TwitterTweetProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/processor/impl/TwitterUserProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/scheduler/TwitterTimelineScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/service/TwitterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/main/java/com/mekari/aggregatorservice/service/impl/TwitterTimelineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/AggregatorServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/AggregatorServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/audit/JPAAuditingConfigurationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/audit/JPAAuditingConfigurationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/config/ApplicationTestConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/config/ApplicationTestConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/controller/TimelineControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/controller/TimelineControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/handler/BaseExceptionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/handler/BaseExceptionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/processor/TwitterTweetProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/processor/TwitterTweetProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/processor/TwitterUserProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/processor/TwitterUserProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/scheduler/TwitterTimelineSchedulerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/scheduler/TwitterTimelineSchedulerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-service/src/test/java/com/mekari/aggregatorservice/service/TwitterTimelineServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-service/src/test/java/com/stockbit/aggregatorservice/service/TwitterTimelineServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fqiLb9n5rw8YpnizntPTB9rYlM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mekari.aggregatorcore.user.entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mekari.aggregatorservice.service" />
+      <recent name="com.mekari.aggregatorcommon.constant" />
+      <recent name="com.mekari.aggregatorpersistence.user" />
+      <recent name="com.mekari.aggregatorcore.user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aggregator-service/config" />
+      <recent name="$PROJECT_DIR$/aggregator-service/src/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aggregator-common/src/test/java/com/mekari/aggregatorcommon/validation" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mekari.aggregatorcommon.validation" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.stockbit.aggregatorcore.usecase.consumefile" />
+      <recent name="com.mekari.aggregatorservice.controller" />
+      <recent name="com.mekari.aggregatorservice.service.impl" />
+      <recent name="com.mekari.aggregatorservice.scheduler" />
+      <recent name="com.mekari.aggregatorservice.processor.impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AggregatorServiceApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseExceptionHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aggregator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mekari.aggregatorservice.handler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mekari.aggregatorservice.handler" />
+      <option name="MAIN_CLASS_NAME" value="com.mekari.aggregatorservice.handler.BaseExceptionHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimelineControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aggregator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mekari.aggregatorservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mekari.aggregatorservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.mekari.aggregatorservice.controller.TimelineControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterTimelineSchedulerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aggregator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mekari.aggregatorservice.scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mekari.aggregatorservice.scheduler" />
+      <option name="MAIN_CLASS_NAME" value="com.mekari.aggregatorservice.scheduler.TwitterTimelineSchedulerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwitterTimelineServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aggregator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mekari.aggregatorservice.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mekari.aggregatorservice.service" />
+      <option name="MAIN_CLASS_NAME" value="com.mekari.aggregatorservice.service.TwitterTimelineServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.mekari.aggregatorservice in aggregator-service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aggregator-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mekari.aggregatorservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mekari.aggregatorservice" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregatorCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aggregator-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mekari.aggregatorcommon.AggregatorCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregatorCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aggregator-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mekari.aggregatorcore.AggregatorCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregatorPersistenceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aggregator-persistence" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mekari.aggregatorpersistence.AggregatorPersistenceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregatorServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aggregator-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.stockbit.aggregatorservice.AggregatorServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AggregatorServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="aggregator-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mekari.aggregatorservice.AggregatorServiceApplication" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/aggregator-service" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BaseExceptionHandlerTest" />
+      <item itemvalue="JUnit.com.mekari.aggregatorservice in aggregator-service" />
+      <item itemvalue="JUnit.TimelineControllerTest" />
+      <item itemvalue="JUnit.TwitterTimelineSchedulerTest" />
+      <item itemvalue="JUnit.TwitterTimelineServiceTest" />
+      <item itemvalue="Spring Boot.AggregatorCommonApplication" />
+      <item itemvalue="Spring Boot.AggregatorCoreApplication" />
+      <item itemvalue="Spring Boot.AggregatorPersistenceApplication" />
+      <item itemvalue="Spring Boot.AggregatorServiceApplication" />
+      <item itemvalue="Spring Boot.AggregatorServiceApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BaseExceptionHandlerTest" />
+        <item itemvalue="JUnit.TimelineControllerTest" />
+        <item itemvalue="JUnit.TwitterTimelineSchedulerTest" />
+        <item itemvalue="JUnit.TwitterTimelineServiceTest" />
+        <item itemvalue="JUnit.com.mekari.aggregatorservice in aggregator-service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e14f61bd-fd12-4f90-b54e-6468eb06725a" name="Default Changelist" comment="" />
+      <created>1596951968505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596951968505</updated>
+      <workItem from="1596951970815" duration="2454000" />
+      <workItem from="1596954453307" duration="5043000" />
+      <workItem from="1596959524246" duration="29355000" />
+      <workItem from="1597031499923" duration="7615000" />
+      <workItem from="1616973577814" duration="6095000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1616979623866">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1616979623866" />
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1616979368728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1616979368728" />
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616974813163">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1616974813163" />
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616979661515">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1616979661515" />
+    <state x="389" y="175" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1616978792807">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="389" y="175" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1616978792807" />
+    <state x="292" y="111" key="RefactorX.AddAttribute" timestamp="1616973889660">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="292" y="111" key="RefactorX.AddAttribute/0.0.1280.680@0.0.1280.680" timestamp="1616973889660" />
+    <state x="350" y="288" key="RefactorX.RenameTag" timestamp="1616973851029">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="350" y="288" key="RefactorX.RenameTag/0.0.1280.680@0.0.1280.680" timestamp="1616973851029" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1616974979920">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1616974979920" />
+    <state x="245" y="85" width="607" height="534" key="find.popup" timestamp="1616978655992">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="245" y="85" width="607" height="534" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1616978655992" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1616979274043">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1616979274043" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/aggregator-core/src/main/java/com/stockbit/aggregatorcore/tweet/usecase/detail/TweetDetailUseCase.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/twitter_timeline_aggregator$com_mekari_aggregatorcore_user_in_aggregator_core.ic" NAME="com.mekari.aggregatorcore.user in aggregator-core Coverage Results" MODIFIED="1596959762703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.mekari.aggregatorcore.user.*</FILTER>
+    </SUITE>
+  </component>
+</project>
